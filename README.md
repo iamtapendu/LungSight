@@ -61,6 +61,7 @@ cd LungSight
 ````
 
 > **Note**: Make sure your segmentation and classification models (`.keras` or `.h5`) are saved inside the `resorce/` folder or correctly referenced in your code.
+>
 > **Download directly from this kaggle notebook output section [Link](https://www.kaggle.com/code/iamtapendu/attention-u-net-lungs-segmentation-classification)**
 
 ### Running the App
@@ -76,6 +77,8 @@ This will launch a GUI window. Use the **Upload** button to select a chest X-ray
 | Original Image                                        | Segmentation Mask               | Overlay                               |
 |-------------------------------------------------------| ------------------------------- | ------------------------------------- |
 | ![lungs-original.png](resource/lungs-original.png)    | ![lungs_segmentation.png](resource/lungs_segmentation.png) | ![lungs-overlay.png](resource/lungs-overlay.png) |
+
+
 ![app-preview.png](resource/app-preview.png)
 ## 🧠 Models Used
 
