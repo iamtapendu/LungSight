@@ -56,11 +56,12 @@ This is a desktop application for detecting **Tuberculosis (TB)** from chest X-r
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/iamtapendu/lung-sight.git
-cd tb-xray-detector
+git clone https://github.com/iamtapendu/LungSight.git
+cd LungSight
 ````
 
-> **Note**: Make sure your segmentation and classification models (`.keras` or `.h5`) are saved inside the `assets/` folder or correctly referenced in your code.
+> **Note**: Make sure your segmentation and classification models (`.keras` or `.h5`) are saved inside the `resorce/` folder or correctly referenced in your code.
+> **Download directly from this kaggle notebook output section [Link](https://www.kaggle.com/code/iamtapendu/attention-u-net-lungs-segmentation-classification)**
 
 ### Running the App
 
@@ -72,10 +73,10 @@ This will launch a GUI window. Use the **Upload** button to select a chest X-ray
 
 ## 🖼️ App Preview
 
-| Original Image                          | Segmentation Mask               | Overlay                               |
-| --------------------------------------- | ------------------------------- | ------------------------------------- |
-| ![Original](assets/sample_original.png) | ![Mask](assets/sample_mask.png) | ![Overlay](assets/sample_overlay.png) |
-
+| Original Image                                        | Segmentation Mask               | Overlay                               |
+|-------------------------------------------------------| ------------------------------- | ------------------------------------- |
+| ![lungs-original.png](resource/lungs-original.png)    | ![lungs_segmentation.png](resource/lungs_segmentation.png) | ![lungs-overlay.png](resource/lungs-overlay.png) |
+![app-preview.png](resource/app-preview.png)
 ## 🧠 Models Used
 
 * **Segmentation Model:** Attention U-Net trained on lung X-ray masks
